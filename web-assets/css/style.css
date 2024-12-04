@@ -181,6 +181,10 @@ section {
   display: block;
 }
 
+.logo_img img{
+  width: 300px;
+}
+
 .bottom_header {
   position: relative;
   margin-bottom: -50px;
@@ -200,7 +204,7 @@ section {
 .bottom_header::before {
   content: "";
   position: absolute;
-  width: 10%;
+  width: 11%;
   top: 0;
   right: 0;
   height: 100%;
@@ -533,7 +537,7 @@ section {
 
 .btm2_right h2 span {
   display: block;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
   margin: 16px 0 0 -4px;
 }

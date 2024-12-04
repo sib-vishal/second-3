@@ -45,7 +45,7 @@
 
                     <h2 class="mt-3 heading">
 
-                        <span class="fontWeight700 text_third">Diversified</span> <br />
+                        <span class="fontWeight700 text_third">Second Bloom</span> <br />
                         Supportive Services
                     </h2>
                     <p class=" mt-3 fs-5">
@@ -139,7 +139,7 @@
                     <div class="btm2_right">
                         <div class="widget-container classic-textwidget custom-classic-textwidget">
                             <div class="classic-text-widget">
-                                <h2>What’s New at <span>DSS?</span> </h2>
+                                <h2>What’s New at <span>Second Bloom?</span> </h2>
                                 <p>Find out what new accommodations we have prepared for you at Diversified Supportive
                                     Services. <a href="home-health-care-whats-new-at-dss">[ <span>Read More</span> ]</a>
                                 </p>

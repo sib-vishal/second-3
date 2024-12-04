@@ -61,7 +61,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
 
-                        Designed By <a class="text-light" href="https://www.sibinfotech.com/">SIB INFOTECH</a>
+                       Powered by <a class="text-light" href="https://www.sibinfotech.com/">SIB INFOTECH</a>
                     </div>
                 </div>
             </div>

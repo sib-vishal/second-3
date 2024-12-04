@@ -2,7 +2,7 @@
     <div class="top_header">
         <div class="containerFull">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <div class="col-lg-4 logo_img">
                     <img src="web-assets/images/logo.png" alt="">
                 </div>
                 <div class="col-lg-8 ">
