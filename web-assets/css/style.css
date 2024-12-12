@@ -73,7 +73,7 @@ p {
   padding: 0;
 }
 p {
-  font-size: 15px;
+  font-size: 17px;
   color: #000;
 }
 ul {
@@ -108,7 +108,7 @@ section {
 }
 
 .fontHeading {
-  font-family: "Tenor Sans", sans-serif;
+  /* font-family: "Tenor Sans", sans-serif; */
 }
 .large_heading {
   font-size: 70px;
@@ -181,7 +181,7 @@ section {
   display: block;
 }
 
-.logo_img img{
+.logo_img img {
   width: 300px;
 }
 
@@ -664,11 +664,291 @@ section {
   background-position: 0px -59px;
 }
 
-.sec-5-content h4{
-
+.sec-5-content h4 {
 }
-.sec-5-content h4 span{
-font-weight: 700  ;
-font-size: 45px;
-color: var(--primary-color);
+.sec-5-content h4 span {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
+.pages_banner {
+  height: 450px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/non-home.jpg);
+  display: flex;
+  align-items: end;
+}
+.pages_banner .content {
+  text-align: center;
+  width: 100%;
+  background-color: #ffffffa6;
+  padding: 10px 30px;
+}
+
+.list_services {
+  padding-left: 25px;
+}
+.list_services li {
+  padding: 3px 0;
+}
+.list_services li a {
+  color: var(--third-color);
+  font-weight: 500;
+  position: relative;
+}
+/* .list_services li a::after {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--third-color);
+  font-weight: 500;
+  position: relative;
+} */
+.list_services li a::after {
+  content: "\f00c";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  color: var(--secondary-color);
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  font-weight: var(--fa-style, 900);
+}
+.list_services li a:hover {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.list_services2 {
+  padding-left: 25px;
+}
+.list_services2 li {
+  padding: 3px 0;
+  position: relative;
+}
+.list_services2 li {
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  position: relative;
+}
+.list_services2 li::after {
+  content: "\f00c";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  color: var(--secondary-color);
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  font-weight: var(--fa-style, 900);
+}
+.list_services2 li:hover {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* contact us */
+.form_box {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #9999998c;
+  border-radius: 10px;
+}
+.form_box form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.form_box .item_form label {
+  display: block;
+  margin-bottom: 7px;
+}
+.form_box .item_form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #8b8a8a;
+  transition: all 0.3s ease-in-out;
+}
+.form_box .item_form input:focus {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+.form_box .item_form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #8b8a8a;
+}
+
+.form_box .item_form:nth-child(5) {
+  grid-column: span 2;
+}
+.form_box .item_form:nth-child(6) {
+  grid-column: span 2;
+}
+
+/* resourse */
+.resources {
+  margin-top: 10px;
+}
+
+.resources a {
+  color: var(--primary-color);
+  display: block;
+  font-weight: 700;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.resources a:hover {
+  padding-left: 2px;
+  text-decoration: none !important;
+  color: var(--third-color);
+}
+
+.resources li,
+.resources ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resources ul li {
+  padding: 12px;
+  background: #fafdfe;
+  outline: 1px solid #ececec;
+  border: 1px solid #3333330e;
+}
+
+.resources ul li a span {
+  font-size: 11px;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+.col2_ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* employement */
+.employment_list {
+  padding-left: 25px;
+}
+.employment_list li {
+  position: relative;
+}
+.employment_list li::after {
+  content: "\f00c";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  color: var(--secondary-color);
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  font-weight: var(--fa-style, 900);
+}
+
+.refer_form input,
+.refer_form select {
+  padding: 10px !important;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.refer_form input:focus,
+.refer_form select:focus {
+  border: 1px solid var(--primary-color);
+  box-shadow: none;
+}
+
+.questions .form-check label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.questions .form-check label:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.questions .form-check input[type="radio"] {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.questions .form-check input[type="radio"]:checked {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.questions .form-check input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.questions .form-check input[type="radio"]:checked::before {
+  background-color: #fff;
+}
+
+.refer_form {
+  padding: 30px;
+  border: 1px solid #9999998c;
+  border-radius: 10px;
+
+  box-shadow: var(--bs-box-shadow) !important;
+}
+
+.item_blog {
+  padding: 20px;
+  box-shadow: var(--bs-box-shadow) !important;
+}
+
+.item_blog .img_box {
+  height: 300px;
+  width: 100%;
+}
+.item_blog .img_box img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.item_blog .writer {
+  border-right: 1px solid #b1b0b0;
 }

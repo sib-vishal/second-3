@@ -48,8 +48,9 @@
                 <div class="col-lg-3 col-md-6">
 
                     <iframe height="250"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12216.457990403664!2d-75.0934946!3d40.0505457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc84d201a007df8f7!2sDiversified%20Supportive%20Services!5e0!3m2!1sen!2sph!4v1584731644616!5m2!1sen!2sph"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.1512581690004!2d-75.23209982487586!3d39.96037078329004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c77ad359bfa7%3A0x8e822f7651bbf34e!2sSecond%20Bloom%20Personal%20Care%2C%20LLC!5e0!3m2!1sen!2sin!4v1733291307182!5m2!1sen!2sin"
                         allowfullscreen=""></iframe>
+                     
                 </div>
             </div>
         </div>
