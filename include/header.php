@@ -55,15 +55,33 @@
     <div class="bottom_header mt-3">
         <div class="containerFull">
             <ul class="header-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Our Gallery</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Employment</a></li>
-                <li><a href="#">Refer a Client</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a class="<?php if ($page == 'home') {
+                    echo 'active';
+                } ?>" href="index.php">Home</a></li>
+                <li><a class="<?php if ($page == 'about') {
+                    echo 'active';
+                } ?>" href="about-us.php">About Us</a></li>
+                <li><a class="<?php if ($page == 'services') {
+                    echo 'active';
+                } ?>" href="services.php">Our Services</a></li>
+                <li><a class="<?php if ($page == 'gallery') {
+                    echo 'active';
+                } ?>" href="gallery.php">Our Gallery</a></li>
+                <li><a class="<?php if ($page == 'resources') {
+                    echo 'active';
+                } ?>" href="resource.php">Resources</a></li>
+                <li><a class="<?php if ($page == 'employment') {
+                    echo 'active';
+                } ?>" href="employment.php">Employment</a></li>
+                <li><a class="<?php if ($page == 'refer') {
+                    echo 'active';
+                } ?>" href="#">Refer a Client</a></li>
+                <li><a class="<?php if ($page == 'blog') {
+                    echo 'active';
+                } ?>" href="blog.php">Blog</a></li>
+                <li><a class="<?php if ($page == 'contact') {
+                    echo 'active';
+                } ?>" href="contact-us.php">Contact Us</a></li>
             </ul>
 
 

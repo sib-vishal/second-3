@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Second Bloom</title>
+    <title> Our Services | Second Bloom</title>
     <?php include 'include/header-script.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
